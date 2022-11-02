@@ -1,3 +1,4 @@
+# Movies Prompt
 - [ ] FRONT-END
     - / - home
     - /movies - List of all movies in our DB 
@@ -8,4 +9,24 @@
         - Name: STRING
         - Run-time: MS
     - Genres
+        - Name
+
+# Recipes App
+- [ ] FRONT-END
+    - [x] / - home
+    - [x] /recipes - List of all recipes in our DB 
+    - /recipes/:id - Link to a single recipe in our + ingredients for the recipe DB
+        - Build out ingredients
+        - Associate our recipes with ingredients
+        - Endpoint to grab a single recipe w/ ingredients
+        - Create the route for recipes
+        - Recipe Reducer
+    - /ingredients - List of all ingredients in our DB
+    - /ingredients/:id - List of all ingredients + recipes they're used in in our DB
+- [ ] BACK-END
+    - Recipes
+        - Name: STRING
+        - TimeToMake: INT - MS
+        - Author: STRING
+    - ingredients
         - Name
